@@ -6,6 +6,7 @@
     </div>
     <div class="form-actions">
       <%= f.submit "Submit", disable_with: "Submiting...", class: "btn btn-primary" %>
+      <%= link_to( "返回",group_path(@group), class: "btn btn-primary pull-right") %>
     </div>
   <% end %>
 </div>
